@@ -28,4 +28,4 @@ function reverseStr(someStr) {
 let myString = "This assignment was not as easy as I thought";
 
 console.log(`Forward: "${myString}"`);
-console.log(`Reverse: ${reverseStr(myString)}`);
+console.log(`Reverse: "${reverseStr(myString)}"`);
