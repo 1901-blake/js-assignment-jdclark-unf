@@ -5,7 +5,7 @@ function fib(n) {
     // The nth member of a Fibonacci sequence, fib(n) is defined 
     // by Binet's formula as:
     //
-    //    fib(n) ≈ (phi^n - psi^n) / sqrt(5)]
+    //    fib(n) ≈ (phi^n - psi^n) / sqrt(5)
     //
     // where: phi = (1 + sqrt(5)) / 2
     // and:   psi = (1 - sqrt(5)) / 2
