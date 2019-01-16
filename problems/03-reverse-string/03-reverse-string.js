@@ -12,10 +12,20 @@ function reverseStr(someStr) {
 
     // JavaScript strings don't have a built-in 
     // reverse() method, but arrays do!
-    return stringArray.reverse.toString;
+    let reversedArray = stringArray.reverse();
+
+    // Create empty string to hold array
+    let result = '';
+
+    // Loop through and copy array to string
+    for(let j = 0; j < reversedArray.length; j++) {
+        result += reversedArray[j];
+    }
+
+    return result;
 }
 
-let myString = "This assignment was too easy";
+let myString = "This assignment was not as easy as I thought";
 
 console.log(`Forward: "${myString}"`);
 console.log(`Reverse: ${reverseStr(myString)}`);
