@@ -8,12 +8,13 @@ function objectProperties(someObj) {
     }
 }
 
-let myCar = { color: 'white', 
-              transmission: 'automatic',
-              doors: 4,
-              make: 'Toyota',
-              model: 'Camry',
-              year: '2017'
+let myCar = { 
+    color: 'white',
+    transmission: 'automatic',
+    doors: 4,
+    make: 'Toyota',
+    model: 'Camry',
+    year: '2017'
 }
 
 console.log(`The properties of the myCar object are:`);
