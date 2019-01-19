@@ -4,7 +4,7 @@ Print every property and it's value. */
 function objectProperties(someObj) {
     // Iterate over properties
     for (const property in someObj) {
-        console.log(`.${property}: ${someObj[property]} (${typeof(someObj[property])})`);
+        console.log(` .${property}: ${someObj[property]} (${typeof(someObj[property])})`);
     }
 }
 
@@ -17,5 +17,5 @@ let myCar = {
     year: '2017'
 }
 
-console.log(`The properties of the myCar object are:`);
-console.log(objectProperties(myCar));
+console.log(`\nThe properties of the myCar object are:`);
+objectProperties(myCar);
