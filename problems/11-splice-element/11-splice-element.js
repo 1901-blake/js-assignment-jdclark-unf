@@ -16,7 +16,7 @@ function spliceElement(someArr, index, numEles) {
         // ... and delete them from input array
         someArr.pop();
     }
-    // Iterate over temporary array,,,
+    // Iterate over temporary array...
     for (let i = 0; i <= tempArr.length; i++) {
         // ... and place elements back into original array
         someArr.push(tempArr.pop());
