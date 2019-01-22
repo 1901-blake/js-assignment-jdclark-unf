@@ -31,10 +31,10 @@ Result: ${substring('Larry, Moe, Curly', 7, 10)}`);
 console.log(`\nTest 3: string = 4, start = 0, end = 2
 Result: ${substring(4, 0, 2)}`);
 
-// bad input (second param not a number)
+// bad input (second parameter not a number)
 console.log(`\nTest 4: string = 'test', start = null, end = 3
 Result: ${substring('test', null, 3)}`);
 
-// bad input (third paraneter not a number)
+// bad input (third parameter not a number)
 console.log(`\nTest 5: string = 'foobar', start = 3, end = 'end'
 Result: ${substring('foobar', 3, 'end')}`);
